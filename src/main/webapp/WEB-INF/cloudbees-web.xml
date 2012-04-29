@@ -1,0 +1,11 @@
+<cloudbees-web-app>
+
+    <appid>stevemac/melbjvm</appid>
+
+    <resource name="jdbc/melbjvm" auth="Container" type="javax.sql.DataSource">
+        <param name="username" value="melbjvm" />
+        <param name="password" value="melbjvm" />
+        <param name="url" value="jdbc:cloudbees://melbjvm" />
+    </resource>
+
+</cloudbees-web-app>
